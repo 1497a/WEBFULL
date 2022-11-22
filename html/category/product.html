@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/Facility/SanPham/fontawesome-free-6.2.0-web/css/all.css">
+    <link rel="stylesheet" href="/Facility/SanPham/bootstrap-5.2.2-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/Facility/SanPham/font_Roboto/Roboto-Bold.ttf">
+    <link rel="stylesheet" href="/Facility/css/themify-icons/themify-icons.css">
+    <link rel="stylesheet" href="/Facility/SanPham/css/product.css">
+    <script src="/Facility/SanPham/js/jquery.min.js"></script>
+    <link rel="stylesheet" href="/Facility/css/style.css">
+    <script src="/Facility/bootstrap-5.0.2-dist/js/bootstrap.bundle.min.js"></script>
+    <title>Tất cả sản phẩm</title>
+</head>
+
+<body>
+    <!-- <header class="header">
+        <div class="logo">
+            <img src="/Facility/img/logo.png">
+        </div>
+
+        <div class="menu botom_border">
+            <li><a href="">TRANG CHỦ</a></li>
+            <li><a href="">GIỚI THIỆU</a></li>
+            <li><a href="">SẢN PHẨM <i class="fas fa-chevron-down"></i></a></li>
+            <li><a href="">TIN TỨC</a></li>
+            <li><a href="">LIÊN HỆ</a></li>
+        </div>
+
+        <div class="others">
+            <li class="user"><a class="fas fa-user" href=""></a>
+                <ul class="drop_user">
+                    <a href=""><li>Đăng nhập</li></a>
+                    <a href=""><li>Đăng ký</li></a>
+                </ul>    
+            </li>
+            <li><a class="fas fa-cart-shopping" href=""></a></li>
+            <li><a class="fas fa-magnifying-glass" href=""></a></li>
+        </div>
+    </header> -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="/Facility/Index.html">
+                <img src="/Facility/img/logo.webp" alt="">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link " href="/Facility/Index.html">Trang chủ</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="">Giới thiệu</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown">
+                  Sản Phẩm
+                </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="/Facility/SanPham/html/category/product_ban.html">Bàn Gỗ</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="/Facility/SanPham/html/category/product_ke_sach.html">Kệ Sách</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="/Facility/SanPham/html/category/product_rem_cua.html">Rèm Cửa</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="/Facility/SanPham/html/category/product_sofa.html">Ghế Sofa</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="/Facility/SanPham/html/category/product_tu_quan_ao.html">Tủ Quần Áo</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="/Facility/SanPham/html/category/product_giuong_ngu.html">Giường Ngủ</a></li>
+
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link " href="/Facility/header/TinTuc.html">Tin tức</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link " href="/Facility/header/LienHe.html">Liên Hệ</a>
+                    </li>
+                </ul>
+                <form class="d-flex">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-primary" type="submit"><span class="ti-search"></span></button>
+                </form>
+                <div class="icon-user">
+                    <ul class="navbar-nav px-3">
+                        <li class="nav-item text-nowrap">
+                            <a class="nav-link" href="/Facility/dangnhap/Dangnhap.html">Đăng nhập</a>
+                        </li>
+                        <li class="nav-item text-nowrap">
+                            <a class="nav-link" href="/Facility/dangky/Dangky.html">Đăng ký</a>
+                        </li>
+                    </ul>
+                </div>
+
+
+            </div>
+        </div>
+    </nav>
+
+    <section class="category">
+        <div class="top_nav">
+            <ul class="line_up">
+                <li><a href="/Facility/Index.html">Trang chủ</a></li>
+                <li><i class="fas fa-chevron-right"></i></li>
+                <li>Tất cả sản phẩm</li>
+            </ul>
+            <hr>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3 category_left">
+                    <div class="row">
+                        <div class="col-lg-12 category_top">
+                            <div class="title_module_main">
+                                <h2>DANH MỤC</h2>
+                            </div>
+                        </div>
+
+                        <div class="category_left_content">
+                            <ul>
+                                <li class="category_left_menu"><i class="fas fa-chevron-right"></i><a href="/Facility/Index.html">Trang chủ</a></li>
+                                <li class="category_left_menu"><i class="fas fa-chevron-right"></i><a href="">Giới thiệu</a></li>
+                                <li class="category_left_menu"><i class="fas fa-chevron-right"></i><a href="#">Sản phẩm<i class="fas fa-chevron-down"></i></a>
+                                    <ul>
+                                        <li><a href="/Facility/SanPham/html/category/product.html">Tất cả Sản Phẩm</a></li>
+
+                                        <li><a href="/Facility/SanPham/html/category/product_ban.html">Bàn gỗ</a></li>
+                                        <li><a href="/Facility/SanPham/html/category/product_ke_sach.html">Kệ sách</a></li>
+                                        <li><a href="/Facility/SanPham/html/category/product_rem_cua.html">Rèm cửa</a></li>
+                                        <li><a href="/Facility/SanPham/html/category/product_sofa.html">Ghế sofa</a></li>
+                                        <li><a href="/Facility/SanPham/html/category/product_phong_tam.html">Phòng tắm</a></li>
+                                        <li><a href="/Facility/SanPham/html/category/product_tu_quan_ao.html">Tủ quần áo</a></li>
+                                        <li><a href="/Facility/SanPham/html/category/product_giuong_ngu.html">Giường ngủ</a></li>
+                                        <li><a href="/Facility/SanPham/html/category/product_den_trang_tri.html">Đèn trang trí</a></li>
+                                        <!-- <li><a href="/Facility/html/category/product_noi_bat.html">Sản phẩm nổi bật</a></li>
+                                        <li><a href="/Facility/html/category/product_khuyen_mai.html">Sản phẩm khuyến mãi</a></li> -->
+                                    </ul>
+                                </li>
+                                <li class="category_left_menu"><i class="fas fa-chevron-right"></i><a href="/Facility/header/TinTuc.html">Tin tức</a></li>
+                                <li class="category_left_menu"><i class="fas fa-chevron-right"></i><a href="/Facility/header/LienHe.html">Liên hệ</a></li>
+                            </ul>
+                            <script>
+                                const itemsliderbar = document.querySelectorAll(".category_left_menu")
+                                itemsliderbar.forEach(function(menu, index) {
+                                    menu.addEventListener("click", function() {
+                                        menu.classList.toggle("block")
+                                    })
+                                })
+                            </script>
+                        </div>
+
+                        <div class="col-lg-12 category_top">
+                            <div class="title_module_main">
+                                <h2>SẢN PHẨM BÁN CHẠY</h2>
+                            </div>
+                            <div class="category_hot_item col-12">
+                                <div class="hot_item row">
+                                    <div class="col-4">
+                                        <img src="/Facility/SanPham/img/category/Sofa/don-SFD18.png">
+                                    </div>
+                                    <div class="col-8">
+                                        <h5><a href="/Facility/SanPham/html/category/detail_item/sofa/sofa4.html">Sofa đơn SFD18</a></h5>
+                                        <p>5.100.000<u>đ</u></p>
+                                    </div>
+                                </div>
+                                <div class="hot_item row">
+                                    <div class="col-4">
+                                        <img src="/Facility/SanPham/img/category/DenTrangTri/Composite-AP-B948.png">
+                                    </div>
+                                    <div class="col-8">
+                                        <h5><a href="/Facility/SanPham/html/category/detail_item/den_trang_tri/den4.html">Đèn tường Composite An Phước B948</a></h5>
+                                        <p>10.000.000<u>đ</u></p>
+                                    </div>
+                                </div>
+                                <div class="hot_item row">
+                                    <div class="col-4">
+                                        <img src="/Facility/SanPham/img/category/GiuongNgu/Furniland-02.png">
+                                    </div>
+                                    <div class="col-8">
+                                        <h5><a href="/Facility/SanPham/html/category/detail_item/giuong_ngu/giuong3.html">Giường ngủ FURNILAND - Jangin Christine (1m8)</a></h5>
+                                        <p>12.000.000<u>đ</u></p>
+                                    </div>
+                                </div>
+                                <div class="hot_item row">
+                                    <div class="col-4">
+                                        <img src="/Facility/SanPham/img/category/PhongTam/thanh-treo-khan.png">
+                                    </div>
+                                    <div class="col-8">
+                                        <h5><a href="/Facility/SanPham/html/category/detail_item/phong_tam/tam2.html">Thanh sắt treo khăn</a></h5>
+                                        <p>98.000<u>đ</u></p>
+                                    </div>
+                                </div>
+                                <div class="hot_item row">
+                                    <div class="col-4">
+                                        <img src="/Facility/SanPham/img/category/KeSach/RubikMH-1846.png">
+                                    </div>
+                                    <div class="col-8">
+                                        <h5><a href="/Facility/SanPham/html/category/detail_item/ke_sach/ke3.html">Kệ trang trí Rubik Modulo Home 1846</a></h5>
+                                        <p>1.100.000<u>đ</u></p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-9 category_right">
+                    <div class="row category_top">
+                        <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
+                            <div class="category_title col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                                <div class="title_module_main">
+                                    <h2>TẤT CẢ SẢN PHẨM</h2>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xs-4 col-sm-8 col-md-8 col-lg-8">
+                            <div class="row">
+                                <div class="category_right_top col-xs-12 col-sm-12 col-md-6 col-lg-6">
+                                    <button><span>Bộ lọc</span><i class="fas fa-chevron-down"></i></button>
+                                </div>
+                                <div class="category_right_top col-xs-12 col-sm-12 col-md-6 col-lg-6">
+                                    <select name="" id="">
+                                        <option value="">Sắp xếp</option>
+                                        <option value="">Giá cao đến thấp</option>
+                                        <option value="">Giá thấp đến cao</option>
+                                    </select>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="category_right_content row" id="product">
+                        <!-- <div class="lazyload col-xs-12 col-sm-6 col-md-4 col-lg-4">
+                            <div class="lazyload_item popup category_right_content_item">
+                                <img src="/Facility/img/category/ghesofatest.png">
+                                <h5><a href="">Ghế Sofa Kem</a></h5>
+                                <p>2.500.000<u>đ</u></p>
+                                <ul class="popup_item">
+                                    <a href=""><li class="fas fa-cart-shopping"></li></a>
+                                    <a href=""><li class="fas fa-eye"></li></a>
+                                </ul>
+                            </div>
+                        </div> -->
+                    </div>
+
+                    <div class="category_paging">
+                        <ul class="pagination">
+                            <li class="page-item page_btn_prev"><a class="page-link"><i class="fas fa-chevron-left"></i></a></li>
+                            <div class="pagination number_page" id="number_page">
+                                <!-- <li class="active"><a class="page-link">1</a></li>
+                                <li><a class="page-link">2</a></li>
+                                <li><a class="page-link">3</a></li>-->
+                            </div>
+                            <li class="page-item page_btn_next"><a class="page-link"><i class="fas fa-chevron-right"></i></a></li>
+                        </ul>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+        <script src="/Facility/SanPham/js/product.js"></script>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12 col-md-12 col-lg-4">
+                    <h4>GIỚI THIỆU</h4>
+                    <p>Đến với Dekor, bạn hoàn toàn yên tâm để chọn được cho mình một bộ nội thất phù hợp nhất, kết hợp đầy đủ, hài hòa các yếu tố về màu sắc, kiểu dáng, kích thước để làm cho không gian ngôi nhà bạn trở nên ấn tượng hơn!</p>
+                </div>
+                <div class="col-xs-12 col-md-6 col-lg-4 addr">
+                    <h4>ĐỊA CHỈ LIÊN HỆ</h4>
+                    <p><i class="fas fa-location-dot"></i>Đường Số 1, Quận 1, TP. Hồ Chí Minh, Việt Nam</p>
+                    <p class="phone_num"><i class="fas fa-phone"></i><a href="">+84 123 456 789</a></p>
+                    <ul>
+                        <li><a href=""><i class="ti-facebook"></i></a></li>
+                        <li><a href=""><i class="ti-twitter"></i></a></li>
+                        <li><a href=""><i class="ti-email"></i></a></li>
+                        <li><a href=""><i class="ti-youtube"></i></a></li>
+                    </ul>
+                </div>
+                <div class="col-xs-12 col-md-6 col-lg-4 news">
+                    <h4>TIN MỚI</h4>
+                    <div class="news_item row">
+                        <div class="col-2 news_img">
+                            <img src="/Facility/SanPham/img/news/news_1.png">
+                        </div>
+                        <div class="col-9 news_info">
+                            <h5><a href="/Facility/header/TinTuc1.html">Bí quyết bảo quản nội thất gỗ</a></h5>
+                            <p>11/11/2022</p>
+                        </div>
+                    </div>
+                    <div class="news_item row">
+                        <div class="col-2 news_img">
+                            <img src="/Facility/SanPham/img/news/news_2.png">
+                        </div>
+                        <div class="col-9 news_info">
+                            <h5><a href="/Facility/header/Tintuc2.html">Kinh nghiệm mua, bảo quản nội thất</a></h5>
+                            <p>11/11/2022</p>
+                        </div>
+                    </div>
+                    <div class="news_item row">
+                        <div class="col-2 news_img">
+                            <img src="/Facility/SanPham/img/news/news_3.png">
+                        </div>
+                        <div class="col-9 news_info">
+                            <h5><a href="/Facility/header/Tintuc3.html">Bố trí nội thất, cần tránh những gì ?</a></h5>
+                            <p>11/11/2022</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="/Facility/SanPham/js/phuoc.js"></script>
+    <script src="/Facility/cart/account.js"></script>
+</body>
+
+</html>
