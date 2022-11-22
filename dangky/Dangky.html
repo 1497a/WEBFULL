@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="vn">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tạo Trang SignUp</title>
+    <link rel="stylesheet" href="/Facility/SanPham/fontawesome-free-6.2.0-web/css/all.css">
+    <link rel="stylesheet" href="/Facility/SanPham/bootstrap-5.2.2-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/Facility/SanPham/font_Roboto/Roboto-Bold.ttf">
+    <link rel="stylesheet" href="/Facility/css/themify-icons/themify-icons.css">
+    <link rel="stylesheet" href="/Facility/SanPham/css/product.css">
+    <script src="/Facility/SanPham/js/jquery.min.js"></script>
+    <link rel="stylesheet" href="/Facility/css/style.css">
+    <script src="/Facility/bootstrap-5.0.2-dist/js/bootstrap.bundle.min.js"></script>
+
+</head>
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+            <div class="container">
+                <a class="navbar-brand" href="/Facility/Index.html">
+                    <img src="/Facility/SanPham/img/logo.png">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb   -lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link " href="/Facility/Index.html">Trang chủ</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="/Facility/header/GioiThieu.html">Giới thiệu</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="/Facility/SanPham/html/category/product.html" id="navbarDropdown" role="button" data-bs-toggle="dropdown">
+                      Sản Phẩm
+                    </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item" href="/Facility/SanPham/html/category/product_ban.html">Bàn Gỗ</a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item" href="/Facility/SanPham/html/category/product_ke_sach.html">Kệ Sách</a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item" href="/Facility/SanPham/html/category/product_rem_cua.html">Rèm Cửa</a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item" href="/Facility/SanPham/html/category/product_sofa.html">Ghế Sofa</a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item" href="/Facility/SanPham/html/category/product_tu_quan_ao.html">Tủ Quần Áo</a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item" href="/Facility/SanPham/html/category/product_giuong_ngu.html">Giường Ngủ</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link " href="/Facility/header/TinTuc.html">Tin tức</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link " href="/Facility/header/LienHe.html">Liên Hệ</a>
+                        </li>
+                    </ul>
+                    <form class="d-flex">
+                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                        <button class="btn btn-primary" type="submit"><span class="ti-search"></span></button>
+                    </form>
+                    <div class="icon-user">
+                        <ul class="navbar-nav px-3">
+                            <li class="nav-item text-nowrap">
+                                <a class="nav-link" href="/Facility/dangnhap/Dangnhap.html">Đăng nhập</a>
+                            </li>
+                            <li class="nav-item text-nowrap">
+
+                                <a class="nav-link" href="/Facility/dangky/Dangky.html">Đăng ký</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+
+    <main role="main">
+        <div class="container mt-4">
+            <div class="row justify-content-center">
+                <div class="col-md-6">
+                    <div class="card mx-4">
+                        <div class="card-body p-4">
+                            <div class="noi-dung">
+                                <div class="form">
+                                    <h2>Đăng Ký</h2>
+                                    <form action="/Facility/dangnhap/Dangnhap.html" id="register">
+                                        <div class="input-form">
+                                            <span><label for="email">Email:</label></span>
+                                            <input id="email" type="text" name="email" placeholder="VD:email1234@gmail.com">
+                                            <span class="form-message"></span>
+                                        </div>
+                                        <div class="input-form">
+                                            <span><label for="SDT">SĐT:</label></span>
+                                            <input id="SDT" type="text" name="SĐT" placeholder="VD:0984253741">
+                                            <span class="form-message"></span>
+                                        </div>
+
+                                        <div class="input-form">
+                                            <span><label for="name" >Tên Người Dùng:</label></span>
+                                            <input id="name" type="text" name="name" placeholder="VD:Mai Đức Kiên">
+                                            <span class="form-message"></span>
+                                        </div>
+                                        <div class="input-form">
+                                            <span><label for="password" >Mật Khẩu:</label></span>
+                                            <input id="password" type="password" name="password">
+                                            <span class="form-message"></span>
+                                        </div>
+                                        <div class="input-form">
+                                            <span><label for="confirmpassword">Xác Nhận Mật Khẩu:</label></span>
+                                            <input id="confirmpassword" type="password" name="cpassword">
+                                            <span class="form-message"></span>
+                                        </div>
+                                        <div class="input-form">
+                                            <input type="submit" onclick="" value="Tạo Tài Khoản">
+                                            <span class="form-message"></span>
+                                        </div>
+                                        <div id="result"></div>
+                                        <div class="xac-nhan">
+                                            <p>Bạn Đã Có Tài Khoản?
+                                                <a href="/Facility/dangnhap/Dangnhap.html">Đăng Nhập</a>
+                                            </p>
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- End block content -->
+    </main>
+    <div class="success1">
+        <div class="container">
+            <div class="catch1 row">
+                <div class="t1 col-md-4">
+                    <div class="select1">
+                        <h4 class="low1">GIỚI THIỆU</h4>
+                        <p>
+                            Đến với Dekor, bạn hoàn toàn yên tâm để chọn được cho mình một bộ nội thất phù hợp nhất, kết hợp đầy đủ, hài hòa các yếu tố về màu sắc, kiểu dáng, kích thước để làm cho không gian ngôi nhà bạn trở nên ấn tượng hơn!
+                        </p>
+                        <ul class="select2">
+                            <li><a href="#"><i class="ti-facebook"></i></a></li>
+                            <li><a href="#"><i class="ti-twitter"></i></a></li>
+                            <li><a href="#"><i class="ti-email"></i></a></li>
+                            <li><a href="#"><i class="ti-youtube"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="t2 col-md-4">
+                    <h4 class="low1">Đường dẫn</h4>
+                    <a href="/Facility/Index.html">
+                        <p>Trang chủ</p>
+                    </a>
+                    <a href="/Facility/header/GioiThieu.html">
+                        <p>Giới thiệu</p>
+                    </a>
+                    <a href="/Facility/SanPham/html/category/product.html">
+                        <p>Sản phẩm</p>
+                    </a>
+                    <a href="/Facility/header/TinTuc.html">
+                        <p>Tin tức </p>
+                    </a>
+                    <a href="/Facility/header/LienHe.html">
+                        <p>Liên hệ</p>
+                    </a>
+                </div>
+                <div class="t3 col-md-4">
+                    <h4 class="low1">Thông tin liên hệ</h4>
+                    <ul class="info">
+                        <li>
+                            <span><i class="ti-location-pin"></i></span>
+                            <span>Đường Số 1<br />
+                    Quận 1, Thành Phố Hồ Chí Minh<br />
+                    Việt Nam</span>
+                        </li>
+                        <li>
+                            <span><i class="ti-headphone-alt"></i></span>
+                            <p><a href="#">+84 123 456 789</a>
+                                <br />
+                                <a href="#">+84 987 654 321</a></p>
+                        </li>
+                        <li>
+                            <span><i class="ti-email"></i></span>
+                            <p><a href="#">diachiemail@gmail.com</a></p>
+                        </li>
+                        <li>
+                            <form class="form">
+                                <input type="email" class="form__field" placeholder="Đăng Ký Subscribe Email" />
+                                <button type="button" class="asd btn btn-primary ">Gửi</button>
+                            </form>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--Kết Thúc Phần Nội Dung-->
+    <script src="/Facility/cart/account.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            // Mong muốn của chúng ta
+            Validator({
+                form: '#register',
+                formGroupSelector: '.input-form',
+                errorSelector: '.form-message',
+                rules: [
+                    Validator.isRequired('#name', 'Vui lòng nhập tên đầy đủ của bạn'),
+                    Validator.isEmail('#email'),
+                    Validator.minLength('#password', 6),
+                    Validator.isRequired('#confirmpassword'),
+                    Validator.isConfirmed('#confirmpassword', function() {
+                        return document.querySelector('#register #password').value;
+                    }, 'Mật khẩu nhập lại không chính xác')
+                ],
+
+            });
+        })
+    </script>
+</body>
+
+</html>
